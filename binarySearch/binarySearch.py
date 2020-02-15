@@ -1,7 +1,13 @@
 """ Binary Search """
 
 class BinarySearch(object):
-    """docstring for BinarySearch"""
+    """
+    BinarySearch Algorithm
+    params:
+        Needed a sorted array to be included
+
+    Time complexity of O(log(n))
+    """
     def __init__(self, arr):
         self._arr = arr
 
